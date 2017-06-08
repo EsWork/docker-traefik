@@ -1,0 +1,13 @@
+language: bash
+services: docker
+
+branches: 
+  only: 
+    - master
+
+install:
+  - docker build -t eswork/traefik .
+  
+script: 
+  - docker run --name traefik -d --restart=always eswork/traefik; sleep 5
+  - docker ps -a | grep -q traefik

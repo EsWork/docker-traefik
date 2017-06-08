@@ -1,0 +1,5 @@
+redis:
+  image: eswork/traefik
+  ports:
+    - "8080:8080"
+  restart: always
