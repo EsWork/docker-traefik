@@ -18,7 +18,7 @@ LABEL org.label-schema.vendor="Containous" \
 
 COPY traefik /usr/local/bin/
 COPY entrypoint.sh /sbin/entrypoint.sh
-RUN chmod 755 /sbin/entrypoint.sh 
+RUN chmod 755 /sbin/entrypoint.sh \
     && chmod 755 /usr/local/bin/traefik
 
 EXPOSE 80/tcp
