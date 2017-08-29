@@ -1,7 +1,7 @@
 FROM alpine:3.6
 LABEL maintainer "v.la@live.cn"
 
-ENV TRAEFIK_VERSION=1.3.5 \
+ENV TRAEFIK_VERSION=1.3.7 \
     TRAEFIK_USER=TRAEFIK \
     TRAEFIK_ETC_DIR=/etc/traefik
 
@@ -13,7 +13,7 @@ LABEL org.label-schema.vendor="Containous" \
       org.label-schema.url="https://traefik.io" \
       org.label-schema.name="Traefik" \
       org.label-schema.description="A modern reverse-proxy" \    
-      org.label-schema.version="v1.3.5" \
+      org.label-schema.version="v1.3.7" \
       org.label-schema.docker.schema-version="1.0"
 
 COPY traefik /usr/local/bin/
