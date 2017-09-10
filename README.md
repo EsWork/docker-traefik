@@ -3,12 +3,12 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`latest` , `1.3.7`  (1.3.7/Dockerfile)](https://github.com/eswork/docker-traefik/blob/master/Dockerfile)
+- [`latest` , `1.3.8`  (1.3.8/Dockerfile)](https://github.com/eswork/docker-traefik/blob/master/Dockerfile)
 
 Introduction
 ---
 
-基于`Alpine linux`镜像构建`traefik-1.3.7`
+基于`Alpine linux`镜像构建`traefik`
 
 Getting started
 
