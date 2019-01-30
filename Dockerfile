@@ -20,7 +20,7 @@ RUN set -ex; \
 		*) echo >&2 "error: unsupported architecture: $apkArch"; exit 1 ;; \
 	esac; \
 	wget --quiet -O /usr/local/bin/traefik "https://github.com/containous/traefik/releases/download/v${TRAEFIK_VERSION}/traefik_linux-$arch"; \
-	chmod +x /usr/local/bin/traefik \
+	chmod +x /usr/local/bin/traefik ;\
     rm -rf /var/cache/apk/*
 
 LABEL org.label-schema.vendor="Containous" \
