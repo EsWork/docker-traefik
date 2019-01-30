@@ -3,7 +3,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`latest` , `1.3.8`  (1.3.8/Dockerfile)](https://github.com/eswork/docker-traefik/blob/master/Dockerfile)
+- [`latest` ,   (Dockerfile)](https://github.com/eswork/docker-traefik/blob/master/Dockerfile)
 
 Introduction
 ---
